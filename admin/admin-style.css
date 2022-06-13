@@ -1,0 +1,56 @@
+.container-a {
+    width: 450px;
+    height: 500px;
+    background-color: #182134;
+    margin: 250px auto 0 auto;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+.dws-submit-a {
+    padding: 13px 30px;
+    margin: 5px 0 20px 0;
+    font-size: 15px;
+    color: #fff;
+    background-color: #2ca8c6;
+    border: none;
+    border-bottom: 4px solid #6ee9fd;
+    cursor: pointer;
+}
+
+.dws-submit-a:hover {
+    transition: all 0.5s;
+    background: #fff;
+    color: #2c536c;
+}
+
+.dws-input-a::before {
+    font-family: "FontAwesome";
+    content: "\f007";
+    position: absolute;
+    font-size: 30px;
+    padding: 10px 0 0 7px;
+    color: #2c536c;
+}
+
+.dws-input-a:nth-child(2)::before {
+    content: "\f023";
+}
+
+.dws-input-a:hover::before {
+    color: #319ebc;
+    transition: all 0.3s;
+}
+
+.dws-input-a input:hover {
+    box-shadow: 0 0 6px 3px rgba(58, 219, 253, 0.35);
+}
